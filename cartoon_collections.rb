@@ -32,5 +32,5 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   return_call = Nil
   valid_calls.each do |element|
-    planeteer_calls.include? 
+    planeteer_calls.include? element
 end
