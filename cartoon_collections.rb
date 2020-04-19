@@ -36,4 +36,5 @@ def find_valid_calls(planeteer_calls)
       return_call = element
       return return_call
     end
+  end
 end
