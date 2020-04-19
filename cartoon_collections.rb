@@ -12,7 +12,8 @@ def summon_captain_planet(planeteer_calls)
   planeteer_shouts = []
   planeteer_calls.map do |element|
     planeteer_shouts << element.upcase.oncat("!")
-  end 
+  end
+  planeteer_shouts
 end
 
 def long_planeteer_calls(planeteer_calls)
